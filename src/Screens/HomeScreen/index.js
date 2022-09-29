@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, Image } from 'react-native';
 import styles from './styles';
 import virus from '../../assets/corona.png';
-import { Button, Divider } from 'react-native-elements';
+import { Button  } from 'react-native-elements';
 import axios from 'axios';
 
 const HomeScreen = ({ navigation }) => {

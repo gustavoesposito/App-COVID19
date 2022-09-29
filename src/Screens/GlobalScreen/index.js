@@ -16,12 +16,19 @@ const GlobalScreen = ({ navigation, route }) => {
   return (
     <View style={styles.container}>
       <Card title="Relatório CoVid 19">
+
         <ListItem title="Novos confirmados" rightTitle={String(report.NewConfirmed)}></ListItem>
+
         <ListItem title="Total confirmados" rightTitle={String(report.TotalConfirmed)}></ListItem>
+
         <ListItem title="Novas Mortes" rightTitle={String(report.NewDeaths)}></ListItem>
+
         <ListItem title="Total de mortes" rightTitle={String(report.TotalDeaths)}></ListItem>
+
         <ListItem title="Novos recuperados" rightTitle={String(report.NewRecovered)}></ListItem>
+
         <ListItem title="Total recuperados" rightTitle={String(report.TotalRecovered)}></ListItem>
+        
       </Card>
     </View>
   );
